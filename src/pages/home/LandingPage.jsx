@@ -1,16 +1,13 @@
 import Navbar from '../../components/Navbar/Navbar';
+import HeroSection from '../../components/HeroSection/HeroSection';
 
-
-
-const ContentLayout = ({ children }) => {
+const LandingPage = () => {
     return (
         <div className='min-h-screen flex flex-col'>
             <Navbar />
-            <main className='flex-grow'>
-                {children}
-            </main>
+            <HeroSection />
         </div>
     );
 };
 
-export default ContentLayout;
+export default LandingPage;
