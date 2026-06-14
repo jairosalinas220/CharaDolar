@@ -32,7 +32,7 @@ CharaDolar es una aplicación web que monitorea el tipo de cambio del dólar en 
 
 ## Demo
 
-> 
+> https://chara-dolar.vercel.app/
 
 ---
 
@@ -83,7 +83,7 @@ src/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/CharaDolar.git
+git clone https://github.com/jairosalinas220/CharaDolar.git
 cd CharaDolar
 
 # 2. Instalar dependencias
