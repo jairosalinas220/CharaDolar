@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
 import { House, Newspaper, Scale } from 'lucide-react'
+import CharaDolarLogo from '../../assets/charaDolar.png'
 const Navbar = () => {
     return (
         <nav style={{"borderBottom": "1px solid rgba(15,23,42,0.08)"}} className='flex justify-between items-center p-4 border-1 border-b-gray-600'>
             <div className='flex items-center'>
+                <img src={CharaDolarLogo} alt="Logo" className='w-8 h-8 mr-2' />
                 <h1 className='text-2xl font-bold'>CharaDolar</h1>
             </div>
             <div className='flex gap-4'>
